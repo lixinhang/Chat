@@ -34,7 +34,7 @@ std::string unescape(char* str)
 	const int nMultiByte = 2;
 #else
 	int nByte = 0;
-	const int nMultiByte = 4;
+	const int nMultiByte = 3;
 #endif
 
 	char* re = (char*)calloc(strlen(str) + 1, 1);
